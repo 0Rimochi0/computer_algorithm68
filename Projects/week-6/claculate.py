@@ -20,7 +20,7 @@ def Calculate():
     print("- = Minus การลบ (A - B)")
     print("* = Multiply การคูณ (การคูณเลขหลายจำนวน)")
     print("/ = Divide การหาร (A / B)")
-    print("** = Power การคำนวณเลขยกกำลัง (A ^ B)")
+    print("** = Power การคำนวณเลขยกกำลัง (A ** B)")
     print("M = Main/Home")
     
     inp = input("Select Operator กรุณาใส่เครื่องหมายการคำนวณ : ")
@@ -94,4 +94,5 @@ def Calculate():
         Calculate()
 
 # เริ่มต้นโปรแกรม
+
 MainMenu()
