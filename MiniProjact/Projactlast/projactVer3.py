@@ -8,7 +8,7 @@ class TodoApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Kishimo Task Manager")
+        self.title("Kishimo Task Manager Developed by Napintor Pimpituk 684245006")
         self.geometry("600x650")
         self.db_name = "tasks_data.db"
         self.init_db()
